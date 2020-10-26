@@ -37,6 +37,7 @@ public abstract class MyAbstractList<E> implements MyList<E>, Iterable<E> {
         }
 
         // What should I return here for the method: next()?
+        // The Code below does not compile
         @Override
         public E next() {
             return MyAbstractList.get(index);
